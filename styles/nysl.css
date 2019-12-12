@@ -98,43 +98,36 @@ p{
     
 }
 
-    .imagen{
-        background-image: url('img/design1_image1.jpg');
-        height: 300px;
-        background-repeat: no-repeat;
-        background-size: cover;
-
-    }
     .imagen1{
-        background-image: url('img/design1_image1.jpg');
+        background-image: url('../img/design1_image1.jpg');
         height: 300px;
         background-repeat: no-repeat;
         background-size: cover;
 
     }
     .imagen2{
-        background-image: url('img/design2_image1.jpg');
+        background-image: url('../img/design2_image1.jpg');
         height: 300px;
         background-repeat: no-repeat;
         background-size: cover;
 
     }
     .imagen3{
-        background-image: url('img/soccer_image1.jpg');
+        background-image: url('../img/soccer_image1.jpg');
         height: 300px;
         background-repeat: no-repeat;
         background-size: cover;
 
     }
     .imagen4{
-        background-image: url('img/soccer_image2.jpg');
+        background-image: url('../img/soccer_image2.jpg');
         height: 300px;
         background-repeat: no-repeat;
         background-size: cover;
 
     }
     .imagen5{
-        background-image: url('img/soccer_image3.jpg');
+        background-image: url('../img/soccer_image3.jpg');
         height: 300px;
         background-repeat: no-repeat;
         background-size: cover;
