@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+}
+.nav{
+    background-color:#008000;
+    border-width: 5px;
+    border-style: solid;
+    border-color: greenyellow;
+}
+.home{
+    background-color:greenyellow;
+    text-decoration-color: white;
+    box-shadow: 1px 1px 1px black;
+    padding:10px;
+    margin: 10px;
+}
+.aubout,.contact{
+    color: white;
+    background-color: blue;
+    box-shadow: 1px 1px 1px black;
+    padding:10px;
+    margin: 10px;
+}
+.link{
+    float: right;
+    position: relative;
+    z-index: 100;
+}
+.center{
+    margin-left: 15%;
+}
+#logo{
+    float: left;
+    width: 10%;
+    margin: 10px;
+}
+#imagen{
+    width: 100%;
+    height: auto;
+}
+p{
+    margin-left: 5%;
+}
+ .email {
+    float: right;
+    margin-right: 5%
+ }
+ .parent {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100
+}
+
+.cell {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 45%;
+    margin: 10px;
+}
+
+.place {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.school {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 30px;
+    width: 45%;
+}
+
+.coord {
+    display: flex;
+    text-align: right;
+    min-height: 30px;
+    width: 50%;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 5px 0 40px 0;
+    border-bottom: 3px ridge #a3fe3b70;
+    height: 200px;
+    width: 90%;
+}
+
+@media (min-width: 300px) {
+    .mapas{
+       margin: 0 100px 0; 
+    }
+    
+}
+
+    .imagen{
+        background-image: url('img/design1_image1.jpg');
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .imagen1{
+        background-image: url('img/design1_image1.jpg');
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .imagen2{
+        background-image: url('img/design2_image1.jpg');
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .imagen3{
+        background-image: url('img/soccer_image1.jpg');
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .imagen4{
+        background-image: url('img/soccer_image2.jpg');
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .imagen5{
+        background-image: url('img/soccer_image3.jpg');
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+
